@@ -1,0 +1,119 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+
+body {
+    background: url("../images/HEROSCREEN.CC-07112021CITYSCAPE-SUN-1.png") no-repeat center center fixed;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#game{
+    width: 400px;
+    height: 500px;
+    background: url("../images/back2.png") no-repeat center;
+    background-size: 400px 500px;
+    background-color: #fef2ae;
+    border: 3px solid white;
+    box-shadow: 2px 2px 2px grey;
+    margin: auto; 
+    overflow: hidden;
+}
+
+#block {
+    width: 50px;
+    height: 500px;
+    background: url("../images/pinkblock.jpg");
+    background-size: contain;
+    position: relative;
+    left: 400px;
+    animation: block 2s infinite linear;
+}
+@keyframes block{
+    0%{left:400px}
+    100%{left:-50px}
+}
+
+#hole{
+    width: 50px;
+    height: 150px;
+    background: url('../images/thhree.png');
+    background-size: 50px 150px;
+    position: relative;
+    left: 400px;
+    top: -500px;
+    animation: block 2s infinite linear;
+    background-repeat: no-repeat;
+}
+
+#character{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    background: url("../images/Jump.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img {
+    margin-top: 60px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#intro {
+    width: 400px;
+    height: 500px;
+    border: 3px solid white;
+    margin: auto; 
+    overflow: hidden;
+    background: url("../images/introbackground.png") no-repeat center;
+    background-size: 400px 500px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+#char{
+    width: 60%;
+    float: left;
+    margin-top: 80px;
+
+}
+.char {
+    width: 200px;
+}
+
+#start {
+    width: 15%;
+    float: right;
+    margin-top: 180px;
+    margin-right: 80px;
+}
+
+button {
+    font-size: 40px;
+    color: white;
+    background-color: rgb(189, 82, 189);
+    padding: 10px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.title {
+    width: 350px;
+    margin-top: 30px;
+}
